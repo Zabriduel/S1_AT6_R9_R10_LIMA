@@ -4,29 +4,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biblioteca do Gabs</title>
+    <title>BiblioGabs</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <p><img src="img/ChatGPT Image Oct 20, 2025, 09_02_51 AM.png" alt="" width="50px" height="50px" style="border-radius: 50%;"></p>
-        <nav>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logotipo da biblioteca">
+            <h1>BiblioGabs</h1>
+        </div>
+        <nav class="nav">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#">Início</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Loja</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
+        <div class="login">
+            <a href="#" class="btn-login">Login</a>
+        </div>
     </header>
     <main>
-        <div class="Livros">
-            <img src="img/livros-mais-usados.jpg" alt="" width="100%" height="500px">
-            aque a leitura acontece e talsss vamos ler galera vocês precisam ler
-        </div>
-        
+        <section class="hero">
+            <div class="hero-img"></div>
+            <div class="hero-texto">
+                <h2>Aqui a leitura acontece!</h2>
+                <p>Descubra histórias, inspire-se e viva grandes aventuras</p>
+            </div>
+        </section>
+
+        <section class="secao-livros">
+            <h2 class="titulo-secao">Seuas leituras recentes</h2>
+
+            <div class="livros-container">
+                <article class="livro">
+                    <img src="img/they_both.jpg" alt="Capa do livro They both die at the end.">
+                    <h3>They both die at the end</h3>
+                    <p>Adam Silveira</p>
+                    <div class="estrelas">⭐⭐⭐⭐☆</div>
+                </article>
+                <article class="livro">
+                    <img src="img/linux.jpg" alt="Capa do livro Linux for beginners">
+                    <h3>Linux for beginners</h3>
+                    <p>Jason Cannon</p>
+                    <div class="estrelas">⭐⭐⭐⭐⭐</div>
+                </article>
+                <article class="livro">
+                    <img src="img/python.jpg" alt="Capa do livro Python Programming">
+                    <h3>Python Programming</h3>
+                    <p>Ryan Turner</p>
+                    <div class="estrelas">⭐☆☆☆☆</div>
+                </article>
+                <article class="livro">
+                    <img src="img/vida_pequena.jpg" alt="Capa do livro A little life">
+                    <h3>A little life</h3>
+                    <p>Hanya Yanagihara</p>
+                    <div class="estrelas">⭐⭐⭐☆☆</div>
+                </article>
+            </div>
+        </section>
+
+        <section class="feedbacks">
+            <h2 class="titulo-secao">Feedbacks</h2>
+            <div class="feedbacks-container">
+                <div class="feedback-box box1">
+                    <h3>"Site muito bom!"</h3>
+                    <p>Com o BiblioGabs Estou conseguindo acompanhar todas as minhas leituras do momento. Já fazem 3
+                        meses que estou utilizando o site e estou amando a experiência. Super recomento 10/10.</p>
+                </div>
+                <div class="feedback-box box2">
+                    <h3>"Site muito bom!"</h3>
+                    <p>Com o BiblioGabs Estou conseguindo acompanhar todas as minhas leituras do momento. Já fazem 3
+                        meses que estou utilizando o site e estou amando a experiência. Super recomento 10/10.</p>
+                </div>
+                <div class="feedback-box box3">
+                    <h3>"Site muito bom!"</h3>
+                    <p>Com o BiblioGabs Estou conseguindo acompanhar todas as minhas leituras do momento. Já fazem 3
+                        meses que estou utilizando o site e estou amando a experiência. Super recomento 10/10.</p>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <section class="footer-top">
+            <h2>Venha ficar por dentro das novidades.</h2>
+            <p>Descubra novos livros, histórias e autores incríveis toda semana.</p>
+
+            <form class="newsletter">
+                <input type="email" placeholder="Digite seu e-mail" required>
+                <button type="submit">Enviar</button>
+            </form>
+
+
+        </section>
+        <div class="footer-bottom">
+            <nav class="links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Contato</a>
+                <a href="#">Suporte</a>
+            </nav>
+            <div class="social">
+                <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="img/youtube.png" alt="YouTube"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
